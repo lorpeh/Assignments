@@ -1,0 +1,83 @@
+.wrapper{
+    display:grid;
+    /* border: solid 4px black; */
+    grid-template-columns: 8em 8em 10em;
+    grid-template-rows: 8em 8em;
+    row-gap:.5em;
+    column-gap: 0.5em;
+    padding:.5em .5em;
+    background-color: black;
+    flex-grow: 1;
+
+}
+
+.first-box{
+    display: grid;
+    background-color: rgb(255, 98, 0);
+    padding:40px 50px;
+    /* max-width: 100%; */
+    /* margin-right:80em; */
+    /* columns: 2fr; */
+    grid-column-start: 1;
+    grid-column-end: 3;
+    flex-shrink: 2;
+  
+}
+.second-box{
+    display:flex;
+    background-color:rgb(245, 202, 11);
+    padding:20px 5em ;
+    
+
+    
+    
+    /* max-width: 100%; */
+    /* margin-right:80em;
+    margin-left:50em;
+    max-width: 100%; */
+    /* columns: 2fr; */
+}
+.Third-box{
+    /* display:; */
+    background-color: rgb(10, 177, 4);
+    padding:20px 6em;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    
+    
+    /* max-width: 100%;
+    margin-right:80em; */
+    /* columns: 2fr; */
+}
+.Fourth-box{
+    /* display: grid; */
+    background-color: rgb(6, 150, 207);
+    padding:20px 20px;
+    align-self:flex-start;
+    padding-left: 4em;
+    /* max-width: 100%;
+    margin-right:80em;
+    columns: 2fr; */
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin-left: -70px;
+    /* grid-row-start:2; */
+  
+    
+
+}
+
+.Fifth-box{
+    background-color: rgb(5, 149, 206);
+    padding:1em 6em;
+    grid-column-start: span;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin-left: -70px;
+    /* grid-row-start: 2; */
+    margin-top:-5.5em;
+    margin-bottom:.5em;
+    
+    
+    
+}

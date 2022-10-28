@@ -1,0 +1,72 @@
+@import url(https://fonts.google.com/specimen/Poppins?query=poppins);
+
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    font-size: 12px;
+    font-family:'poppins', sans-serif;
+    padding-top:10px;
+    color: white;
+    align-items: flex-start;
+    padding:5em 5em;
+    flex-shrink:3;
+    align-content: stretch;
+    
+
+
+}
+.sedans{
+    flex: 30%;
+    background-color: hsl(24, 94%, 63%);
+    padding-block:10em;
+    line-height:30px;
+    padding-inline: 5px;
+    flex-shrink:10;
+}
+.suv{
+    flex: 30%;
+    background-color: hsl(154, 59%, 51%);
+    padding-block:10em;
+    line-height:30px;
+    padding-inline: 5px;
+    flex-shrink: 10;
+
+}
+.luxury{
+    flex: 30%;
+    background-color: rgb(27, 61, 27);
+    padding-block:10em;
+    padding-inline:5px;
+    line-height:30px;
+    padding-inline:5px;
+    flex-shrink: 10;
+}
+#paragraph{
+    color: cornsilk;
+}
+
+.learn{
+    border-radius: 22%;
+    border-color: black;
+    background-color: white;
+    border-width: 2px;
+    color: black;
+    padding:10px 20px;
+    margin-top: 50px;
+
+}
+/* @media only screen and (max-width:375px){
+    .wrapper{
+        width:50%;
+    }
+} */
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="wrapper"] {
+      width: 90%;
+    }
+  }
+
